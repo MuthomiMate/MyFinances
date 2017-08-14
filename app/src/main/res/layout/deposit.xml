@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:weightSum="3">
+            <TextView android:layout_weight="1"
+                android:id="@+id/datemgy"/>
+            <TextView android:layout_weight="1"
+                android:id="@+id/amountmnn"/>
+            <TextView android:layout_weight="1"
+                android:id="@+id/optionmate"/>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

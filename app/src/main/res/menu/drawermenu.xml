@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/nav_item_inbox"
+        android:icon="@drawable/inbox"/>
+
+    <item android:title="Accounts"
+        android:id="@+id/nav_item_sent"
+        android:icon="@drawable/sent"/>
+
+    <item android:title="About"
+        android:id="@+id/nav_item_draft"
+        android:icon="@drawable/draft"/>
+    <item android:title="Deposit"
+          android:id="@+id/nav_item_deposit"
+           android:icon="@drawable/fcb"/>
+    <item android:title="Withdraw"
+          android:id="@+id/nav_item_withdraw"
+          android:icon="@drawable/connect"/>
+
+    <item android:title="others">
+        <menu>
+
+        <item android:title="Settings"
+            android:icon="@drawable/settings"
+            android:id="@+id/nav_item_settings"/>
+        <item android:title="Help"
+            android:icon="@drawable/help"
+            android:id="@+id/nav_item_help"/>
+        </menu>
+    </item>
+
+
+
+</menu>
